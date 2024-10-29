@@ -1,0 +1,10 @@
+# action.yml
+name: 'Install MySQL Client'
+description: 'Installs MySQL Client on GitHub Runners'
+author: 'Your Name'
+runs:
+  using: 'bash'
+  main: 'entrypoint.sh'
+branding:
+  icon: 'server'
+  color: 'blue'
